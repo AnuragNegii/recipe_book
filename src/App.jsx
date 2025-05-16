@@ -1,9 +1,18 @@
-function App() {
+import Search from "./components/Search"
+import "./App.css"
+import RecipeList from "./components/RecipeList.jsx";
+import AddRecipe from "./components/AddRecipe.jsx";
 
+function App() {
   return (
-    <>
-      <h1>Recipe Book</h1>
-   </>
+    <div className="app-container">
+      <div className="recipe-header">
+        <h1>Hello! Which recipe are you looking For</h1>
+        <AddRecipe className="add-recipe-button"/>
+      </div>
+      <Search />
+      <RecipeList />
+    </div>
   )
 }
 

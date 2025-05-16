@@ -1,0 +1,23 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* horizontal center */
+  justify-content: flex-start; /* stick to top */
+  height: 100%;
+  padding-top: 60px; /* space from top */
+  text-align: center;
+  gap: 20px;
+}
+
+.recipe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.add-recipe-button{
+  position: absolute;
+}
+
